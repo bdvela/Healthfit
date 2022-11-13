@@ -95,7 +95,9 @@
                         <h1>Empieza tu cambio hoy mismo</h1>
                         <h2>Conoce la nueva versión imparable de ti con Healthfit</h2>
                         <div class="d-flex">
-                            <a href="#services" class="btn-get-started scrollto animated">Quiero saber más</a>
+                            <a id="quieroSaberMas" href="#services" class="btn-get-started scrollto animated"
+                                >Quiero saber más</a
+                            >
                         </div>
                     </div>
                     <div class="col-lg-6 order-1 order-lg-2 text-center">
@@ -212,7 +214,12 @@
                                 <div class="mt-5 mb-3 d-flex text-center justify-content-center align-items-center">
                                     <h3>S/0.00</h3>
                                 </div>
-                                <button type="button" class="btn btn-outline-danger" onclick="showAlertFree()">
+                                <button
+                                    id="probarFree"
+                                    type="button"
+                                    class="btn btn-outline-danger"
+                                    onclick="showAlertFree()"
+                                >
                                     Probar versión free
                                 </button>
                             </div>
@@ -236,7 +243,12 @@
                                     <h3>S/20.00</h3>
                                     <span>/mes</span>
                                 </div>
-                                <button type="button" class="btn btn-danger animated" onclick="showAlertPremium()">
+                                <button
+                                    id="probarPremium"
+                                    type="button"
+                                    class="btn btn-danger animated"
+                                    onclick="showAlertPremium()"
+                                >
                                     Obtén tu primer mes gratis
                                 </button>
                             </div>
