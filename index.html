@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-5DSQWT9');
+        </script>
+        <!-- End Google Tag Manager -->
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-QD15G0VL44"></script>
         <script>
@@ -36,6 +50,16 @@
         <link href="assets/css/style.css" rel="stylesheet" />
     </head>
     <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript
+            ><iframe
+                src="https://www.googletagmanager.com/ns.html?id=GTM-5DSQWT9"
+                height="0"
+                width="0"
+                style="display: none; visibility: hidden"
+            ></iframe
+        ></noscript>
+        <!-- End Google Tag Manager (noscript) -->
         <!-- Header -->
         <header id="header" class="fixed-top">
             <div class="container d-flex align-items-center justify-content-between">
@@ -86,9 +110,9 @@
             <!-- ======= Featured Services Section ======= -->
             <section id="featured-services" class="featured-services bg-light">
                 <div class="container">
-                    <div class="row justify-content-center text-center align-items-center mt-2 mb-2">
+                    <div class="row justify-content-center text-center align-items-center">
                         <h5 class="text-center respaldado">Respaldado por</h5>
-                        <div class="col-lg-4 col-md-6 mt-2">
+                        <div class="col-lg-4 col-md-6">
                             <img
                                 src="./assets/img/colegio-nutricionistas.png"
                                 class="respaldado"
@@ -96,7 +120,7 @@
                                 alt="colegio nutricionistas"
                             />
                         </div>
-                        <div class="col-lg-4 col-md-6 mt-2">
+                        <div class="col-lg-4 col-md-6">
                             <img
                                 src="./assets/img/IFBB.png"
                                 class="respaldado"
@@ -104,7 +128,7 @@
                                 alt="colegio nutricionistas"
                             />
                         </div>
-                        <div class="col-lg-4 col-md-6 mt-2">
+                        <div class="col-lg-4 col-md-6">
                             <img
                                 src="./assets/img/IPD.png"
                                 class="respaldado"
@@ -120,7 +144,7 @@
             <!-- ======= About Section ======= -->
             <section id="ad" class="about">
                 <div class="container">
-                    <div class="row mt-5 mb-5">
+                    <div class="row mt-5">
                         <div class="col-lg-6">
                             <img src="assets/img/mockups.png" width="550" class="img-fluid animated" alt="mockup" />
                         </div>
@@ -149,17 +173,17 @@
             </section>
             <!-- End About Section -->
             <!-- ======= Cta Section ======= -->
-            <section id="cta" class="cta bg-dark">
-                <div class="container">
-                    <div class="text-center text-dark">
-                        <h3>Call To Action</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto ab praesentium dolor. Ea
-                            illum ipsum sit doloribus accusamus aliquid voluptates praesentium facere ab! Minima
-                            corporis, ratione officia eveniet fugit culpa?
-                        </p>
-
-                        <a class="cta-btn" href="#">ESTA SERÁ LA SECCIÓN DEL EXPERIMENTO</a>
+            <section id="cta" class="cta">
+                <div class="container mt-3">
+                    <div class="text-center text-white">
+                        <h3>NUNCA TE RINDAS</h3>
+                        <br />
+                        <h4>
+                            "No hay absolutamente ninguna otra forma de <span>triunfar</span> en la <span>vida</span> si
+                            no es por el <span>constante esfuerzo</span>."
+                        </h4>
+                        <h5 class="text-end">-Arnold Schwarzenegger</h5>
+                        <a class="cta-btn" href="#plans">Conocer los planes</a>
                     </div>
                 </div>
             </section>

@@ -647,11 +647,15 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-    background: #ad0e0e;
+    background-image: url(../img/wall.png);
+    background-attachment: fixed;
+    background-position: top;
     background-size: cover;
     padding: 60px 0;
 }
-
+.cta span {
+    color: #e1fa48;
+}
 .cta h3 {
     color: #fff;
     font-size: 28px;
@@ -680,6 +684,7 @@ section {
 .cta .cta-btn:hover {
     background: #e1fa48;
     border-color: #e1fa48;
+    color: black;
 }
 
 /*--------------------------------------------------------------
